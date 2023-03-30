@@ -1,0 +1,131 @@
+/* variables */
+:root {
+    --background: #55423d;
+    --headline: #fffffe;
+    --paragraph: #fff3ec;
+    --button-bg: #ffc0ad;
+    --button-text: #271c19;
+}
+
+/* universal selector */
+/* * {
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* body */
+body {
+    background-color: var(--background);
+}
+
+/* Header */
+ header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    height: 100px;
+    filter: invert(100%) sepia(97%) saturate(710%) hue-rotate(300deg) brightness(118%) contrast(111%);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--paragraph)
+}
+
+a:visited {
+    color: var(--paragraph)
+}
+
+/* First row */
+ .heroSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.047);
+    border-radius: 1rem;
+
+}
+
+h1 {
+    color: var(--headline);
+    font-size: 3rem;
+}
+
+.heroSection p {
+    color: var(--paragraph);
+    font-size: 1.5rem;
+}
+
+.heroSection button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 7rem;
+}
+
+.heroSection button:hover {
+    background-color: #ffc0ad68;
+    cursor: pointer;
+} 
+
+/* second row */
+/* keep it for the end */
+ .secondRow {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 6% 0%;
+}
+
+.secondRow article {
+    background-color: rgba(225, 225, 225, 0.047);
+    ;
+    width: 30%;
+    height: 470px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+article img {
+    width: 90px;
+    height: 90px;
+
+}
+
+article p,
+article ul {
+    color: var(--paragraph);
+    font-size: 1rem;
+    padding: 7%;
+}
+
+h2 {
+    color: var(--headline);
+}
+
+article ul {
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--paragraph)
+}
+
+hr {
+    color: var(--paragraph)
+} 
