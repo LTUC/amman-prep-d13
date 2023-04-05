@@ -1,0 +1,65 @@
+body {
+  height: 2000px;
+}
+.parent-cls div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.div-1 {
+  background-color: chocolate;
+  position: absolute;
+  /* bottom: 100px;
+  right: 100px; */
+  width: 50px!important;
+  height: 50px!important;
+}
+
+.div-2 {
+  background-color: chartreuse;
+  /* position: fixed; */
+  position: absolute;
+  /* top: 100px;
+  left: 100px; */
+  width: 50px!important;
+  height: 50px!important;
+}
+
+.div-3 {
+  background-color: darkkhaki;
+  /* position: relative; */
+  top: 10px;
+  left: 10px;
+}
+
+p {
+  /* position: sticky; */
+  top: 0;
+}
+
+/* Relative Absolute */
+.relative-abs-cls {
+  /* position: relative; */
+}
+
+.relative-abs-cls div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.relative-abs-div-1 {
+  background-color: aqua;
+}
+
+.relative-abs-div-2 {
+  background-color: blue;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+
+.relative-abs-div-3 {
+  background-color: blueviolet;
+}
