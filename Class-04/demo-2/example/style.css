@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  background: #ccc;
+  /* display: inline-block; */
+  height: 1500px;
+  display: flex;
+  /* gap: 10px; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container div {
+  width: 250px;
+  height: 250px;
+  background-color: #afd222;
+  /* display: inline; */
+  /* float: left; */
+  /* margin-right: 5px; */
+}
+
+/* .last-ele {
+  margin-right: 0!important;
+} */
+
+.container div:last-child {
+  margin-bottom: 10px;
+}
