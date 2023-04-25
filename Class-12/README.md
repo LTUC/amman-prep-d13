@@ -1,22 +1,24 @@
-# Class12 : 3rd Party API
+# Class 17 : Routing, Conditional Rendering, Events and, State
 
-## Outcomes:
-Students will be able to:
-- Describe and Define: Async, Promises, APIs, ReST, Express, Application Middleware, Route Middleware, libraries, wireframes, env.
-- Execute:
- - Node Express Server
- - Use axios to fetch remote data asynchronously
- - Get 3rd Party data from an API
- - Integrate data with a separate web application
+## Outcomes
 
-## Resources:
-* [Async vs sync](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
-* [What is a Promise](https://www.freecodecamp.org/news/javascript-promises-explained/)
-* [An Introduction to REST APIs](https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis/)
-* [Axios Doc](https://www.npmjs.com/package/axios)
+Students will learn :
 
-### Keywords to Search for:
-* Async functions in Javascript
-* Promises
-* RESTful API
-* Axios
+- Routing
+- Conditional rendering
+- Passing functions as props
+- Handling events
+- Introduce state and Life-cycle (useState)
+
+
+## Resources
+* [Routing](https://www.tutorialspoint.com/reactjs/reactjs_router.htm)
+* [Passing functions as props in react](https://reactjs.org/docs/faq-functions.html)
+* [Events](https://blog.logrocket.com/a-guide-to-react-onclick-event-handlers-d411943b14dd/)
+* [Component lifecycle](https://learn.co/lessons/react-component-lifecycle)
+
+### Keywords to search for (Main Headlines):
+* React Routing.
+* Props vs state.
+* React Events.
+* React Lifecycle.

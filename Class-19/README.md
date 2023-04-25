@@ -1,17 +1,16 @@
-# Class 19 : Frontend Deployment
+# Class 15 : Backend Deployment
 
-## Outcomes
-Students will learn :
+## Outcomes:
+Student will be able to:
+- Deal with Heroku and deploy database and server
+- working with Heroku CLI
 
-- Able to create new object from Modal data and store it Database
-- Retrieve data from DB and show them.
-- Able to delete/update from DB (choose one of them to explain and leave the other for the lab).
-- Deployment on netlify
+ 
+## Resources:
+* [What is Heroku](https://mentormate.com/blog/what-is-heroku-used-for-cloud-development/)
+* [Heroku CLI Commands](https://devcenter.heroku.com/articles/heroku-cli-commands)
+* [Mistakes to Avoid As a Backend Developer](https://dev.to/techmaniacc/mistakes-to-avoid-as-a-backend-developer-122j)
 
-## Resources
-* [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
-* [Netlify Deployment Guide](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
-
-
-### Keywords to search for (Main Headlines):
-* React bootstrap.
+### Keywords to search for:
+* Heroku
+* Heroku CLI

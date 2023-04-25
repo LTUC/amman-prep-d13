@@ -1,29 +1,48 @@
-# Lab 14:
+# Netflix Clone
 
-## Problem domain:
-* Today you will continue working on your Movies-Library repository. You will learn how to update and delete an entry in your database.
+## **Lab 19**
 
- 
-## Requirements:
-* Draw the web request response cycle for the task at hand
-* Create a new branch called `Lab14`
-* Create request to the database for the following endpoints:
- - `/UPDATE/id`: create an update request to update your comments for a specific movie in the database.
- - `/DELETE/id` : create a delete request to remove a specific movie from your database.
- - ` getMovie/id`: Create a get request to get a specific movie from the database
+### **Overview**
 
-* Update Documentation in your README.md file
+You will continue building on what you achieved in the last lab.
 
-## Resources:
-* [SQL ](https://sqlbolt.com/)
-* [SQL Practice](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
-* [SQL sheetcheat](http://www.cheat-sheets.org/sites/sql.su/)
+### **Requirements**
 
+**Set up your Github Repository:**
+   - Checkout a new branch called `class-19` for today's task.
+   - Open it in VS code.
+
+- You have to create two new components.
+  - FavList as what you did before with MovieList
+  - Navbar
+
+- Update App component:
+
+  - Add routing for home and favorite list pages.
+  - Render `<Navbar />` 
+
+
+- Navbar component:
+
+  - Should be able to navigate between home and favorite list page.
+
+    **Hint**: use `<Link >` from react-bootstrap
+
+- FavList component:
+  - Retrieve the data from your database if any.
+  - Display them on the Favorite list page as cards.
+  - Each card should have two buttons added (Delete, Update)
+      
+  - Delete button, should remove the card from the favorite list.
+  - Update button, enable the user to update the comment. 
+
+
+- Deploy your app on Netlify
 
 ## Submission Instructions:
-- When your work is complete and ready for submission, push to the `Lab14` branch.
+- When your work is complete and ready for submission, push to the `class-19` branch.
 - Create a pull request.
 - Submit the pull request link.
-- Merge `Lab14` with the main branch.
+- Merge `class-19` with the main branch.
 - What observations or questions do you have about what you’ve learned so far?
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?

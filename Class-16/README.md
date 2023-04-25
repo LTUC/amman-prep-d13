@@ -1,24 +1,22 @@
-# Class 16 : React: Introduction
+# Class12 : 3rd Party API
 
-## Outcomes
+## Outcomes:
+Students will be able to:
+- Describe and Define: Async, Promises, APIs, ReST, Express, Application Middleware, Route Middleware, libraries, wireframes, env.
+- Execute:
+ - Node Express Server
+ - Use axios to fetch remote data asynchronously
+ - Get 3rd Party data from an API
+ - Integrate data with a separate web application
 
-Students will learn :
+## Resources:
+* [Async vs sync](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
+* [What is a Promise](https://www.freecodecamp.org/news/javascript-promises-explained/)
+* [An Introduction to REST APIs](https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis/)
+* [Axios Doc](https://www.npmjs.com/package/axios)
 
-- understand what is React, JSX.
-- Create react app.
-- Create and render components.
-- Dealing with props and passing it(how to destruct the object).
-- Dealing with JSON data.and map
-
-## Resources
-* [React JS](https://www.geeksforgeeks.org/react-js-introduction-working/)
-* [Components and Props in React](https://reactjs.org/docs/components-and-props.html)
-* [Passing Functions to Components](https://reactjs.org/docs/faq-functions.html)
-* [DOM vs Virtual DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
-
-### Keywords to Search for: 
-* JSX
-* Function and Class Components in React
-* Rendering a Component
-* Extracting Components
-* Virtual DOM
+### Keywords to Search for:
+* Async functions in Javascript
+* Promises
+* RESTful API
+* Axios

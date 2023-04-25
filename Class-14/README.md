@@ -1,18 +1,17 @@
-# Class 14 : CRUD
+# Class 19 : Frontend Deployment
 
-## Outcomes:
-Students will be able to:
-- Create update and delete requests
-- Update (UPDATE) a record in the database
-- Delete (Delete) a record from the database
-- Read (SELECT) a record from the database
+## Outcomes
+Students will learn :
+
+- Able to create new object from Modal data and store it Database
+- Retrieve data from DB and show them.
+- Able to delete/update from DB (choose one of them to explain and leave the other for the lab).
+- Deployment on netlify
+
+## Resources
+* [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
+* [Netlify Deployment Guide](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
 
 
-## Resources:
-* [HTTP response status codes](https://thecontentworks.uk/http-status-codes-cheat-sheet/)
-* [Status Code to Use for Every CRUD App](https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/)
-* [req.params, req.query and req.body](https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc)
-
-### Keywords to search for:
-* HTTP Status Codes
-* Update and Delete in CRUD
+### Keywords to search for (Main Headlines):
+* React bootstrap.

@@ -1,59 +1,98 @@
-# Lab 12:
+# Travel Destination
 
-## Problem domain:
-For today's lab, you will continue working on the Movies-Library repository. You will send get requests to a 3rd party API and display data.
+## **Lab 17**
 
-## Requirements:
-* Draw the web request-response cycle for the task at hand
-* Create a new branch called `Lab12`
-* Install the required packages for this lab: `npm install axios dotenv`
-* Go to this website [THE MOVIE DB](https://developers.themoviedb.org/3):
-  - Create a new account if you don’t have one
-  - Get your API key
+### **Overview**
 
-* Create GET request to the 3rd party API for these endpoints:
- - `/trending`: Get the trending movies data from the Movie DB API [Link](https://api.themoviedb.org/3/trending/all/week?api_key=37ddc7081e348bf246a42f3be2b3dfd0&language=en-US)
- -  your response should include the following info :
-```json
-{
-"id": 634649,
-"title": "Spider-Man: No Way Home",
-"release_date": "2021-12-15",
-"poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-"overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high stakes of being a superhero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
-},
-```
- - `/search`: Search for a movie name to get its information [Link](https://api.themoviedb.org/3/search/movie?api_key=668baa4bb128a32b82fe0c15b21dd699&language=en-US&query=The&page=2)
- - Take a look around the Movie DB Documentation and choose two more routes that interest you and add them to your project.
+You will continue building on what you achieved in the **Lab 16**.
 
-* Update documentation in your README.md file
+### **Requirements**
 
-- Your application structure should be similar to this:
-```
-Movies-Library
-   ├── Movie Data
-   |     └── data.json
-   ├── .eslintrc.json
-   ├── .env
-   ├── .gitignore
-   ├── package-lock.json
-   ├── package.json
-   ├── README.md
-   └── server.js
+
+**Set up your Github Repository:**
+   - Checkout a new branch called `class-17` for today's task.
+   - Open it in VS code.
+
+- You have to organize your file structure to be as below - it just related to src folder the rest folder should not be Edited .
+
 ```
 
-## Resources:
-## Resources:
-* [Express doc](http://expressjs.com/en/4x/api.html)
-* [NPM doc](https://docs.npmjs.com/)
-* [Dotenv](https://www.npmjs.com/package/dotenv)
-* [axios](https://www.npmjs.com/package/axios)
+├── App.css
+├── App.js
+├── components
+│   ├── Navbar
+│   │   ├── Navbar.css
+│   │   └── Navbar.js
+│   ├── TourDetails
+│   │   ├── TourDetails.css
+│   │   └── TourDetails.js
+│   ├── footer
+│   │   ├── Footer.css
+│   │   └── Footer.js
+│   ├── header
+│   │   ├── Header.css
+│   │   └── Header.js
+│   ├── home
+│   │   ├── Home.css
+│   │   └── Home.js
+│   └── tours
+│       ├── Tours.css
+│       ├── Tours.js
+│       └── tour
+│           ├── Tour.css
+│           └── Tour.js
+├── data
+│   └── db.json
+├── index.css
+└── index.js
+```
 
 
+- You have to create two new components.
+    - Tour
+    - TourDetail
+
+- Your project should looking good so you have to create css file for each components and give each component style 
+- Follow this link to learn how to design your react project by using css [Link 1](https://reactjs.org/docs/faq-styling.html) | [Link 2](https://www.w3schools.com/react/react_css.asp)
+
+- Update Tours component:
+
+   - So in the previous lab you was use `div` to render tours as card , but in this lab and as you learn in today demo and instead of returning a `<div>` each time. you must return and render a `<Tour/>`.
+    - After that, you have to pass the data as props to the `<Tour/  tour={tour} >`.and don’t forget to add the id as a key.
+
+
+- Tour component:
+
+    - In the tour component you have to display the same data that you have displayed before which are [ image, name ].
+
+- Routing:
+   - your will have two routes as the following: 
+      1. To navigate back to the home page, path="/"
+      2. in order to show more details about the city, path=`”/city/:id”`
+  - Update your `<Header/>` to be containing a link that navigates to home.
+  
+         
+
+- Tour Details:
+     - Once the user clicks on any of the cities cards that you created, it should show details about that city (Note :- You can handle this feature by wrapping each card by `Link` and pass the `id` of the card of tour that you clicked as props and then receive the `id` of these tour by using hook that called [useParams](https://www.codecademy.com/courses/learn-react-router/lessons/intermediate-react-react-router/exercises/useparams) and then after you log of id and you insure it was received you have to render only the whole information of this tour include description).
+
+    - You have to create function to get information of the clicked tour by passing of the id to this function and filter then to return on the information of this tour .
+       
+    - **Hint:** 
+        - You may use the filter method for Tour Details.
+        - You may use Link from react-route-dom.
+
+- Tour Description :
+    - The user should not have see the whole description once he/she reach to detail page he just have to see the first three lines and then he should see `see more` and once he click on it he have to see the rest of description and also he have see `see less` to shrink and description to be as he was see before in three lines .
+
+    - **Hint:**
+       -You may use useState hooks to create state of the view of the description. 
+
+                                      
 ## Submission Instructions:
-- When your work is complete and ready for submission, push it to the `Lab12` branch.
+- When your work is complete and ready for submission, push to the `class-17` branch.
 - Create a pull request.
 - Submit the pull request link.
-- Merge `Lab12` with the main branch.
+- Merge `class-17` with the main branch.
 - What observations or questions do you have about what you’ve learned so far?
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?

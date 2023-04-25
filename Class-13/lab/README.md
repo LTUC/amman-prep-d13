@@ -1,29 +1,66 @@
-# Lab 13:
+# Netflix Clone
 
-## Overview:
-In today's lab, you will set up your database and read and save data to it.
+## **Lab 18**
 
-## Requirements:
-* Draw the web request response cycle for the task at hand
-* Create a new branch called `Lab13`
-* Install the required packages for this lab: `npm install pg`
-* Setup your database environment.
-* Create request to the database for the following endpoints:
-   - `addMovie` : create a post request to save a specific movie to database along with your personal comments.
-   - `/getMovies`: Create a get request to get all the data from the database
+### **Overview**
 
-* Update Documentation in your README.md file
+For today and tomorrow's labs, you will build a Netflix Clone web application.
 
-## Resources:
-* [SQL ](https://sqlbolt.com/)
-* [SQL Practice](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
-* [SQL sheetcheat](http://www.cheat-sheets.org/sites/sql.su/)
+
+### **Problem domain**
+
+You are building a Netflix Clone application, where you can list a set of movies, and the user can add any movie to favorite list, also the user can see all favorite movies.
+
+### **Requirements**
+
+**Set up your Github Repository:**
+   - Create new repo called `Netflix-Clone`.
+   - Checkout a new branch called `class-18` for today's task.
+   - Open it in VS code.
+
+
+- Use this [Cheatsheet](https://drive.google.com/file/d/14VoN5f9mnLZ43t5kayttvbUWCYecxyLd/view) to create your project.
+- API: https://developers.themoviedb.org/3
+
+
+- You should have Six main components in your project.
+
+    - Home 
+    - Navbar(next lab)
+    - MovieList
+    - Movie
+    - ModalMovie
+    - FavList (next lab)   
+
+- **Home component:**
+
+    - Fetch data using the endpoint (‘/trending’) that you created in Lab12. 
+
+    - Render MovieList component.
+
+
+
+- **MovieList component:**
+    - Map the data that you have from the API. 
+    - It returns and renders a Movie component.
+
+- **Movie component:**
+    - It includes the card that represents the movie
+    - Each movie should have a button to add to the favorite list.
+    - It includes a ModalMovie component.
+
+- **ModalMovie component:**
+    - It appears once the user clicks add to favorite button and shows movie details {name, img} also the user can add a comment on the card before adding it to the favorite list. 
+
+
+    - When you click add to the favorite button you should store the data that you have from the Modal in your Database, using this endpoint(‘/addMovie’) from Lab13.
 
 
 ## Submission Instructions:
-- When your work is complete and ready for submission, push to the `Lab13` branch.
+- When your work is complete and ready for submission, push to the `class-18` branch.
 - Create a pull request.
 - Submit the pull request link.
-- Merge `Lab13` with the main branch.
+- Merge `class-18` with the main branch.
 - What observations or questions do you have about what you’ve learned so far?
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
