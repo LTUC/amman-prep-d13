@@ -1,48 +1,59 @@
-# Netflix Clone
+# Lab 12:
 
-## **Lab 19**
+## Problem domain:
+For today's lab, you will continue working on the Movies-Library repository. You will send get requests to a 3rd party API and display data.
 
-### **Overview**
+## Requirements:
+* Draw the web request-response cycle for the task at hand
+* Create a new branch called `Lab12`
+* Install the required packages for this lab: `npm install axios dotenv`
+* Go to this website [THE MOVIE DB](https://developers.themoviedb.org/3):
+  - Create a new account if you don’t have one
+  - Get your API key
 
-You will continue building on what you achieved in the last lab.
+* Create GET request to the 3rd party API for these endpoints:
+ - `/trending`: Get the trending movies data from the Movie DB API [Link](https://api.themoviedb.org/3/trending/all/week?api_key=37ddc7081e348bf246a42f3be2b3dfd0&language=en-US)
+ -  your response should include the following info :
+```json
+{
+"id": 634649,
+"title": "Spider-Man: No Way Home",
+"release_date": "2021-12-15",
+"poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+"overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high stakes of being a superhero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
+},
+```
+ - `/search`: Search for a movie name to get its information [Link](https://api.themoviedb.org/3/search/movie?api_key=668baa4bb128a32b82fe0c15b21dd699&language=en-US&query=The&page=2)
+ - Take a look around the Movie DB Documentation and choose two more routes that interest you and add them to your project.
 
-### **Requirements**
+* Update documentation in your README.md file
 
-**Set up your Github Repository:**
-   - Checkout a new branch called `class-19` for today's task.
-   - Open it in VS code.
+- Your application structure should be similar to this:
+```
+Movies-Library
+   ├── Movie Data
+   |     └── data.json
+   ├── .eslintrc.json
+   ├── .env
+   ├── .gitignore
+   ├── package-lock.json
+   ├── package.json
+   ├── README.md
+   └── server.js
+```
 
-- You have to create two new components.
-  - FavList as what you did before with MovieList
-  - Navbar
+## Resources:
+## Resources:
+* [Express doc](http://expressjs.com/en/4x/api.html)
+* [NPM doc](https://docs.npmjs.com/)
+* [Dotenv](https://www.npmjs.com/package/dotenv)
+* [axios](https://www.npmjs.com/package/axios)
 
-- Update App component:
-
-  - Add routing for home and favorite list pages.
-  - Render `<Navbar />` 
-
-
-- Navbar component:
-
-  - Should be able to navigate between home and favorite list page.
-
-    **Hint**: use `<Link >` from react-bootstrap
-
-- FavList component:
-  - Retrieve the data from your database if any.
-  - Display them on the Favorite list page as cards.
-  - Each card should have two buttons added (Delete, Update)
-      
-  - Delete button, should remove the card from the favorite list.
-  - Update button, enable the user to update the comment. 
-
-
-- Deploy your app on Netlify
 
 ## Submission Instructions:
-- When your work is complete and ready for submission, push to the `class-19` branch.
+- When your work is complete and ready for submission, push it to the `Lab12` branch.
 - Create a pull request.
 - Submit the pull request link.
-- Merge `class-19` with the main branch.
+- Merge `Lab12` with the main branch.
 - What observations or questions do you have about what you’ve learned so far?
 - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?

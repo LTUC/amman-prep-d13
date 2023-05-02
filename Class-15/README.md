@@ -1,22 +1,25 @@
-# Class11 : Building a Server
+# Class13 : Databases
 
 ## Outcomes:
-The student will be able to:
-- Begin to understand how the world wide web works (Internet, web, protocols, server, addresses IPs)
-- Be able to explain the role of the browser and the server as components of the web request-response cycle
-- Understand how to initialize a NodeJS project and use NPM packages
-- Understand the basics of working with ExpressJS
-- Get the data from a JSON file and handle it.
+Students will be able to:
+- Describe and Define: Database (DBMS, SQL,NoSQL), Relational Databases, Tables, Columns, Rows, Records, SQL Language
+- How CRUD relates to SQL
+- pg client library for Node
+- Connect a node server to a Postgres DB
+- Build a schema
+- Save (INSERT) records to the database
+- Read (SELECT) records from the database
 
 ## Resources:
-* [The Internet in Simple Words](https://www.khanacademy.org/computing/ap-computer-science-principles/the-internet/x2d2f703b37b450a3:web-protocols/a/the-world-wide-web)
-* [URL](https://www.techtarget.com/searchnetworking/definition/URL)
-* [Network Protocol](https://www.comptia.org/content/guides/what-is-a-network-protocol)
-* [What is WRRC](https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047)
-* [What is NodeJS](https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/)
-* [What is ExpressJS](https://www.freecodecamp.org/news/express-explained-with-examples-installation-routing-middleware-and-more/)
+* [Databases Introduction](https://zenkit.com/en/blog/everything-you-need-to-know-about-web-databases/)
+* [SQL](https://sqlbolt.com/)
+* [SQL Practice](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+* [SQL Sheetcheat](http://www.cheat-sheets.org/sites/sql.su/)
+* [What is CRUD](https://youtu.be/iNkspbIfcic)
+* [REST vs CRUD](https://www.logicmonitor.com/blog/rest-vs-crud)
 
-### Keywords to Search for: 
-* WRRC (Web Request Response Cycle)
-* Node JS
-* Express JS
+### Keywords to search for:
+* Databases
+* SQL vs NoSQL
+* CRUD
+* Rest

@@ -1,25 +1,22 @@
-# Class 18 : Hooks and Linking Frontend with Backend
+# Class11 : Building a Server
 
-## Outcomes
+## Outcomes:
+The student will be able to:
+- Begin to understand how the world wide web works (Internet, web, protocols, server, addresses IPs)
+- Be able to explain the role of the browser and the server as components of the web request-response cycle
+- Understand how to initialize a NodeJS project and use NPM packages
+- Understand the basics of working with ExpressJS
+- Get the data from a JSON file and handle it.
 
-Students will learn :
-- Ability to read API's Documentation.
-- Be able to deal with fetch.
-- UseState()
-- UseEffect()
-- Get Data and Display them using map.
-- Understand how to use react-bootstrap components to add styling.
-- Showing Modal with data and add input box.
-- Introduce useRef().
-- How to link front with back
-
-## Resources
-* [Axios in React](https://www.geeksforgeeks.org/axios-in-react-a-guide-for-beginners/)
-* [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+## Resources:
+* [The Internet in Simple Words](https://www.khanacademy.org/computing/ap-computer-science-principles/the-internet/x2d2f703b37b450a3:web-protocols/a/the-world-wide-web)
+* [URL](https://www.techtarget.com/searchnetworking/definition/URL)
+* [Network Protocol](https://www.comptia.org/content/guides/what-is-a-network-protocol)
+* [What is WRRC](https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047)
+* [What is NodeJS](https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/)
+* [What is ExpressJS](https://www.freecodecamp.org/news/express-explained-with-examples-installation-routing-middleware-and-more/)
 
 ### Keywords to Search for: 
-* Axios
-* API
-* HTTP
-* Client and Server
-* Promise-based
+* WRRC (Web Request Response Cycle)
+* Node JS
+* Express JS

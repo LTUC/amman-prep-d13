@@ -1,17 +1,22 @@
-# Class 19 : Frontend Deployment
+# Class12 : 3rd Party API
 
-## Outcomes
-Students will learn :
+## Outcomes:
+Students will be able to:
+- Describe and Define: Async, Promises, APIs, ReST, Express, Application Middleware, Route Middleware, libraries, wireframes, env.
+- Execute:
+ - Node Express Server
+ - Use axios to fetch remote data asynchronously
+ - Get 3rd Party data from an API
+ - Integrate data with a separate web application
 
-- Able to create new object from Modal data and store it Database
-- Retrieve data from DB and show them.
-- Able to delete/update from DB (choose one of them to explain and leave the other for the lab).
-- Deployment on netlify
+## Resources:
+* [Async vs sync](https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/)
+* [What is a Promise](https://www.freecodecamp.org/news/javascript-promises-explained/)
+* [An Introduction to REST APIs](https://www.easeout.co/blog/2021-11-09-an-introduction-to-rest-apis/)
+* [Axios Doc](https://www.npmjs.com/package/axios)
 
-## Resources
-* [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
-* [Netlify Deployment Guide](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
-
-
-### Keywords to search for (Main Headlines):
-* React bootstrap.
+### Keywords to Search for:
+* Async functions in Javascript
+* Promises
+* RESTful API
+* Axios
