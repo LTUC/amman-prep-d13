@@ -1,0 +1,26 @@
+.header-nav {
+  display: flex;
+  gap: 10px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+
+    &::after {
+      width: 0;
+      left: 50%;
+      height: 2px;
+      background: #fff;
+      bottom: -10px;
+      content: '';
+      position: absolute;
+      transform: translateX(-50%);
+    }
+
+    &:hover::after {
+      width: 50%;
+    }
+  }
+}

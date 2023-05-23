@@ -1,0 +1,32 @@
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+
+  * {
+    color: #fff;
+  }
+
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    a {
+      text-decoration: none;
+    }
+
+    .social-icon {
+      display: flex;
+      gap: 5px;
+
+      // Change the color of the i tag
+      // svg{
+      //   color: #B70404;
+      // }
+    }
+  }
+
+}

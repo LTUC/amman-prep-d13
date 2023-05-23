@@ -1,0 +1,31 @@
+.hero-section {
+  height: 100vh; // vh view height
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(9, 9, 206, 0.8), rgba(0, 153, 255, 0.6)), url(https://d8g345wuhgd7e.cloudfront.net/site/www-v2/images/start/about-us-banner@2x_resize_1x.jpg) no-repeat;
+  background-blend-mode: hard-light;
+  background-size: 100%;
+  padding-left: 150px;
+
+  .inner-section {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+
+    h1 {
+      font-size: 64px;
+
+      span {
+        color: #ED2B2A;
+      }
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
