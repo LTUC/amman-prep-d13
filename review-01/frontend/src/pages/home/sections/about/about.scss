@@ -1,0 +1,107 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+
+  .inner-section {
+    width: calc(100% - 400px);
+
+    .top-about-section {
+      display: flex;
+      align-items: center;
+
+      .about-image {
+        width: 400px;
+        height: 500px;
+        border-radius: 5px;
+        flex: 1 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .about-content {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        left: -70px;
+        background: #fff;
+        padding: 40px;
+
+        h2 {
+          font-size: 42px;
+        }
+
+        p {
+          line-height: 1.5;
+          font-size: 18px;
+        }
+
+        a {
+          color: #fff;
+          padding: 10px 20px;
+          background: #B70404;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    @keyframes slide {
+      from {
+        transform: translateX(calc(100% - 300px));
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+    
+    .logos {
+      overflow: hidden;
+      padding: 60px 0;
+      background: white;
+      white-space: nowrap;
+      position: relative;
+    }
+    
+    .logos:before,
+    .logos:after {
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      content: "";
+      z-index: 2;
+    }
+    
+    .logos:before {
+      left: 0;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    }
+    
+    .logos:after {
+      right: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    }
+    
+    .logos:hover .logos-slide {
+      animation-play-state: paused;
+    }
+    
+    .logos-slide {
+      display: inline-block;
+      animation: 35s slide infinite linear;
+    }
+    
+    .logos-slide img {
+      height: 50px;
+      margin: 0 40px;
+    }
+  }
+}

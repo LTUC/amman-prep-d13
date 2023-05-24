@@ -1,0 +1,55 @@
+.subscribe-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: linear-gradient(180deg, rgba(9, 9, 206, 0.8), rgba(0, 153, 255, 0.6)), url(https://leb.fbi.gov/image-repository/business-men-shaking-hands-stock.jpg/@@images/image.jpeg) no-repeat;
+  background-blend-mode: hard-light;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+
+  .inner-section {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px ;
+    flex-direction: column;
+
+    p {
+      font-size: 32px;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 80%;
+
+      input {
+        width: 80%;
+        flex: 1 80%;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      button {
+        flex: 1 20%;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        background: rgba(183, 4, 4 , 1);
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

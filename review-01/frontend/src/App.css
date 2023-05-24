@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Raleway:wght@400;600;700&display=swap');
+
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
   transition: all 350ms;
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+
 }
